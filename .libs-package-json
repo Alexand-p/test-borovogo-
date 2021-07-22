@@ -1,0 +1,13 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://www.figma.com/file/TsDswU6qFY17F0OT1yX6zb/Test?node-id=1%3A2",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0",
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {
+    "normalize-scss": "^7.0.1"
+  }
+}
