@@ -197,3 +197,23 @@
   -webkit-box-shadow: 0 0 15px #ffffff;
           box-shadow: 0 0 15px #ffffff;
 }
+.post-container__item{
+  color: white;
+  position: absolute;
+  max-width: 650px;
+  z-index: 10;
+  top: 400px;
+  right: 970px;
+  .p-light{
+    background-color: #E69A37;
+    max-width: 180px;
+    padding: 0 2px;
+    text-align: center;
+  }
+  h2{
+    font-weight: 700;
+    font-size: 68px;
+    padding: 20px 0px;
+
+  }
+}

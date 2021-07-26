@@ -1,16 +1,32 @@
 footer{
-  border: 1px solid black;
-  img{
-    width: 50px;
-    height: 50px;
-  }
   .footer-container{
     display: flex;
-    flex-direction: row; 
     justify-content: center;
-    align-items: center;
-    margin-top: 10px;
     gap: 10px;
     font-size: 14px;
+    
+    .footer-container__block{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 120px;
+      min-width: 234px;
+     
+      img{
+        width: 50px;
+        height: 50px;
+      }
+      p{
+        display: inline-block;
+        margin: 0;
+        vertical-align: middle;
+        margin-left: 10px;
+        color: black;
+      }
+    }
+    .footer-container__block:hover{
+      background-color: #F3F3F3;
+      transition: background-color 0.5s;
+    }
   }
 }

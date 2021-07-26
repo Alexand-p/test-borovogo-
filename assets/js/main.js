@@ -13,7 +13,7 @@ let $slides = $('.slides__item');
 let $indContainer = $('.indicators');
 let $indItems = $('.indicators__item');
 let currentSlide = 0;
-let carouselInterval = 2000;
+let carouselInterval = 4000;
 
 const SPACE = ' ';
 const LEFT_ARROW = 'ArrowLeft';

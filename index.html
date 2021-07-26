@@ -20,16 +20,19 @@
  <header class="header">
    <div class="header-up">
      <div class="header-up__logo">
+       <a href="">
        <img src="assets/img/untitled (2).png" alt="Изображен логотип">
+      </a>
        <div class="header-up__item">
         <h1>Логотип</h1>
         <p>Инжиниринговая компания</p>
        </div>
+      
      </div>
 
      <div class="header-up__search">
       <form>
-        <input type="text" placeholder="Поиск по сайту...">
+        <input class="header-search" type="text" placeholder="Поиск по сайту...">
         <button type="submit"></button>
       </form>
      </div>
@@ -49,8 +52,13 @@
    </div>
  </header>
  <section class="post">
+   <div class="post-container">
+    <div class="post-container__item">
+      <p class="p-light">наши компетенции</p>
+      <h2>Объекты <br> химической <br> промышленности</h2>
+      <p>Важнейшим преимуществом компании является способность проектировать и строить «под ключ». При этом данные процессы ведутся одновременно, что позволяет заказчику значительно сократить общий строительный цикл объекта</p>
+    </div>
   <div class="carousel">
-
     <ul class="slides">
       <li class="slides__item active"><a href="#"></a></li>
       <li class="slides__item"><a href="#"></a></li>
@@ -58,7 +66,6 @@
       <li class="slides__item"><a href="#"></a></li>
       <li class="slides__item"><a href="#"></a></li>
     </ul>
-
     <div class="controls">
       <div class="controls__item controls__prev">
         <i class="fas fa-chevron-left"></i>
@@ -67,67 +74,57 @@
         <i class="fas fa-chevron-right"></i>
       </div>
     </div>
-
     <div class="indicators">
-      <span class="indicators__pause"><i class="fas fa-play"></i></span>
+      <!-- <span class="indicators__pause"><i class="fas fa-play"></i></span> -->
       <span class="indicators__item active" data-slide-to="0">1</span>
       <span class="indicators__item" data-slide-to="1">2</span>
       <span class="indicators__item" data-slide-to="2">3</span>
       <span class="indicators__item" data-slide-to="3">4</span>
       <span class="indicators__item" data-slide-to="4">5</span>
     </div>
-
   </div>
-  
-
+ 
+</div>
  </section>
  <footer class="footer">
    <div class="footer-container">
-     <div class="services">
-       <div>
+
+     <div class="footer-container__block">
        <a href="#">
-         <div>
          <img src="assets/img/ic_1.svg" alt="#">
-         <p>Услуги проектирования</p>
-        </div>
+         <p>Услуги <br>проектирования</p>
         </div>
        </a>
-     </div>
-     <div class="construction">
-       <div>
+
+     <div class="footer-container__block">
       <a href="#">
-        <div>
         <img src="assets/img/ic_2.svg" alt="#">
-        <p>Строительно-
+        <p>Строительно-<br>
           монтажные работы</p>
-        </div>
-        </div>
       </a>
      </div>
-     <div class="expert">
+
+     <div class="footer-container__block">
       <a href="#">
-        <div>
         <img src="assets/img/ic_3.svg" alt="#">
-        <p>Экспертная деятельность</p>
-      </div>
+        <p>Экспертная <br> деятельность</p>
       </a>
      </div>
-     <div class="technical">
+
+     <div class="footer-container__block">
       <a href="#">
-        <div>
         <img src="assets/img/ic_4.svg" alt="#">
-        <p>Техническое обслуживание</p>
-      </div>
+        <p>Техническое <br> обслуживание</p>
       </a>
      </div>
-     <div class="trials">
+
+     <div class="footer-container__block">
       <a href="#">
-        <div>
         <img src="assets/img/ic_5.svg" alt="#">
-        <p>Испытательная лаборатория</p>
-      </div>
+        <p>Испытательная <br> лаборатория</p>
       </a>
      </div>
+
    </div>
  </footer>
   <script src="libs/jquery/dist/jquery.min.js"></script>
