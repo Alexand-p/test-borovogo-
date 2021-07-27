@@ -463,6 +463,7 @@ template {
 /* sm */
 /* xs */
 /* xx */
+
 .carousel {
   position: relative;
   width: 100%;
@@ -645,7 +646,7 @@ template {
 
 .post-container__item .p-light {
   background-color: #E69A37;
-  max-width: 180px;
+  width: 180px;
   padding: 0 2px;
   text-align: center;
 }
@@ -834,4 +835,58 @@ button:before {
 
 .header-search:hover {
   background-color: #e4e4e3;
+}
+
+@media (max-width: 720px) {
+  body {
+    overflow-x: hidden;
+  }
+  .header-up {
+    display: block;
+    height: auto;
+  }
+  .header-up .header-up__logo {
+    display: block;
+    text-align: center;
+  }
+  .header-up .header-up__logo h1, .header-up .header-up__logo p {
+    margin: 0;
+  }
+  .header-up .header-up__item {
+    margin-top: 20px;
+  }
+  .header-up .header-search {
+    display: block;
+    margin: 25px 10px;
+  }
+  .nav {
+    display: block;
+  }
+  .header-down {
+    height: auto;
+  }
+  .footer {
+    display: block;
+  }
+  .footer .footer-container {
+    display: block;
+  }
+  .footer .footer-container .footer-container__block {
+    text-align: center;
+  }
+  .post-container__item {
+    right: auto;
+    top: auto;
+    margin: 0 auto;
+  }
+  .post-container__item h2 {
+    font-size: 36px;
+    text-align: center;
+  }
+  .post-container__item P {
+    text-align: center;
+  }
+  .post-container__item .p-light {
+    width: auto;
+  }
 }
