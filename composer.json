@@ -1,0 +1,14 @@
+{
+  "name": "savchenko/test-borovogo-",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "alexandr",
+      "email": "3082303@gmail.com"
+    }
+  ],
+  "require": {
+  }
+}
